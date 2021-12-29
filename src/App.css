@@ -1,6 +1,75 @@
 .App {
   text-align: center;
 }
+.Heading {
+  color: #6610f2;
+  font-size: 45px;
+}
+.input{
+  box-shadow: 4px 4px 4px #6610f2 !important;
+  margin: 0 auto;
+  width: 20%;
+  border-color:#6610f2 !important;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius:5px ;
+}
+.input:focus{
+  border-color: #6610f2;
+  outline: none !important;
+}
+.btn{
+  margin: 10px 10px;
+  color: #6610f2;
+  background-color: #fff;
+  outline: none !important;
+  border-color: #6610f2;
+  font-size: 25px;
+}
+.btn:hover{
+  color: #6610f2 ;
+  background-color: #fff;
+}
+.todo{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  width: 40%;
+  margin:30px auto;
+  border: 1px solid #6610f2;
+  padding: 0 15px;
+  background-color: #6610f2;
+  color: #fff;
+
+}
+.todo:hover{
+  background-color: #fff;
+  color: #6610f2;  
+}
+@media(max-width:576px){
+  .todo{
+    flex-wrap: wrap;
+    width: 80%;
+    margin:10px auto;  }
+    .input{
+      margin: 20px auto;
+      width: 50%;
+    }
+}
+
+
+.input_feild{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  width: 40%;
+  margin:0 auto;
+}
+.todo_child{
+  /* margin-top: 10px; */
+  margin: 20px 0px;
+}
+
 
 .App-logo {
   height: 40vmin;
