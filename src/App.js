@@ -4,7 +4,6 @@ import './App.css'
 import {Button,InputGroup,FormControl} from 'react-bootstrap';
 import {AiOutlineAppstoreAdd} from "react-icons/ai";
 import {AiFillDelete} from "react-icons/ai";
-
 import {AiFillEdit} from "react-icons/ai";
 import {GrUpdate} from "react-icons/gr";
 import {FaRegStickyNote} from "react-icons/fa";
