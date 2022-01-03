@@ -8,7 +8,6 @@ import {AiFillEdit} from "react-icons/ai";
 import {GrUpdate} from "react-icons/gr";
 import {FaRegStickyNote} from "react-icons/fa";
 
-
  class App extends Component {
 
   constructor(){
