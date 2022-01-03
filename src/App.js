@@ -16,12 +16,9 @@ import {FaRegStickyNote} from "react-icons/fa";
   
     this.state={
         todo:[
-            {
-                name:"Hammad",status:1
-             
+            {             
             }
             ,{
-                name:"Hunain" , status:1,
             }
                
         ],
